@@ -12,7 +12,8 @@ The Timer 2 controls the generation of the PWM signal .
 The Timer 4 controls the exact moment that the ADC conversion is done by DMA, and  the exact moment that the DMA transfer the value from look up table to timer 2 register
 
 The figure below shows the thinking behind the code. 
-![Lock-in Timers - English](https://user-images.githubusercontent.com/114233216/194727883-9f8a485f-5aac-4a4b-b794-34aa94def50b.png)
+![Lock-in Timers - English](https://user-images.githubusercontent.com/114233216/194731206-98592e6a-9aa4-45ea-a5d4-15d05d50d6a3.png)
+
 
 1. Configuration of CLock
 
