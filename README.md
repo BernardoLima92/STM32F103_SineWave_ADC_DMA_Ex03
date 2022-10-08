@@ -9,8 +9,9 @@ When a string "next" is send by Labview and received by STM32, all the buffer, w
 To create the sinusoidal wave and control the correct time of the ADC conversions i´ve used the Timers 2 and 4.  Furthermore, i´ve used a look up table where the values of the sine wave were stored. 
 
 The Timer 2 controls the exact moment that the DMA transfer the value from look up table to timer 2 register. 
-The Timer 4 controls the exact moment that the ADC conversion is done. 
+The Timer 4 controls the exact moment that the ADC conversion is done by DMA.
 
+The figure below shows the thinking behind the code. 
 
 
 
